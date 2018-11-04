@@ -138,6 +138,46 @@ impl Graph {
         // The footer
         svg_file.footer();
     }
+
+    /// Returns the spanning tree from the root point using Prim's Algorithm
+    pub fn draw_animated_spanning_tree(&self, root: usize, svg_file: &mut Svg) {
+        svg_file.header();
+        svg_file.rectangle(0, 0,svg_file.h, svg_file.w, "white".to_string());
+        let mut set_of_points = Vec::new();
+        set_of_points.push(root);
+
+        for pt in self.points.iter() {
+            pt.draw_point(svg_file);
+        }
+
+        // While we don't have a spanning tree
+        while set_of_points.len() != self.n {
+            let mut min = u32::max_value();
+            let mut min_pt = 0;
+            let mut from_point = 0;
+            // For all the points currently in the spanning tree
+            for pt in set_of_points.iter() {
+                for next_point in 0..self.n {
+                    // If the point is not in the spanning tree
+                    if !set_of_points.iter().any(|point| point == &next_point) {
+                        // If it is the closest from the spanning tree
+                        if self.matrix[*pt][next_point] < min {
+                            min = self.matrix[*pt][next_point];
+                            min_pt = next_point;
+                            from_point = *pt;
+                        }
+                    }
+                }
+            }
+            // We add the closest point from the spanning tree to the tree
+            set_of_points.push(min_pt);
+            self.points[from_point].draw_animated_line(&self.points[min_pt], svg_file, (10000 * set_of_points.len() / self.n) as u32);
+        }
+        svg_file.footer();
+    }
+
+
+
 }
 
 
@@ -159,6 +199,8 @@ mod tests {
         let mut svg_tree = Svg::new("spanning_tree.svg".to_string(), h, w);
         let tree = graph.spanning_tree(0);
         tree.draw_graph_svg(&mut svg_tree);
+        let mut svg_tree_animated = Svg::new("animated_spanning_tree.svg".to_string(), h, w);
+        graph.draw_animated_spanning_tree(0, &mut svg_tree_animated);
     }
 }
 
