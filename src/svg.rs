@@ -72,22 +72,31 @@ impl Svg {
     }
 
     /// Draws a line from (x1, y1) to (x2, y2)
-    pub fn line(&self, x1: u32, y1: u32, x2: u32, y2: u32, color: String) {
+    pub fn line(&self, x1: u32, y1: u32, x2: u32, y2: u32, color: String, width: u32) {
         let mut writer = BufWriter::new(&self.file);
         write!(
             &mut writer,
-            "<line x1='{}' y1='{}' x2='{}' y2='{}' stroke='{}'/>\n",
-            x1, y1, x2, y2, color
+            "<line x1='{}' y1='{}' x2='{}' y2='{}' stroke='{}' stroke-width='{}'/>\n",
+            x1, y1, x2, y2, color, width
         ).unwrap();
     }
 
     /// Draws a line from (x1, y1) to (x2, y2)
-    pub fn line_animated(&self, x1: u32, y1: u32, x2: u32, y2: u32, color: String, begin: u32) {
+    pub fn line_animated(
+        &self,
+        x1: u32,
+        y1: u32,
+        x2: u32,
+        y2: u32,
+        color: String,
+        begin: u32,
+        width: u32,
+    ) {
         let mut writer = BufWriter::new(&self.file);
         write!(
             &mut writer,
-            "<line x1='{}' y1='{}' x2='{}' y2='{}' stroke='{}'>\n<set attributeName='x2' attributeType='XML' to='{}' begin='{}ms' />\n<set attributeName='y2' attributeType='XML' to='{}' begin='{}ms'/>\n</line>\n",
-            x1, y1, x1, y1, color, x2, begin, y2, begin
+            "<line x1='{}' y1='{}' x2='{}' y2='{}' stroke='{}' stroke-width='{}'>\n<set attributeName='x2' attributeType='XML' to='{}' begin='{}ms' />\n<set attributeName='y2' attributeType='XML' to='{}' begin='{}ms'/>\n</line>\n",
+            x1, y1, x1, y1, color, width, x2, begin, y2, begin
         ).unwrap();
     }
 

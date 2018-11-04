@@ -56,16 +56,16 @@ impl Point {
 
     /// Draws a line between two points
     pub fn draw_line(&self, pt: &Point, svg_file: &mut Svg) {
-        svg_file.line(self.x, self.y, pt.x, pt.y, "blue".to_string());
+        svg_file.line(self.x, self.y, pt.x, pt.y, "blue".to_string(), 1);
     }
 
     /// Draws an animated line between two points
     pub fn draw_animated_line(&self, pt: &Point, svg_file: &mut Svg, begin: u32) {
-        svg_file.line_animated(self.x, self.y, pt.x, pt.y, "blue".to_string(), begin);
+        svg_file.line_animated(self.x, self.y, pt.x, pt.y, "blue".to_string(), begin, 1);
     }
     /// Draws a red animated line between two points
     pub fn draw_animated_line_red(&self, pt: &Point, svg_file: &mut Svg, begin: u32) {
-        svg_file.line_animated(self.x, self.y, pt.x, pt.y, "red".to_string(), begin);
+        svg_file.line_animated(self.x, self.y, pt.x, pt.y, "red".to_string(), begin, 2);
     }
 }
 
