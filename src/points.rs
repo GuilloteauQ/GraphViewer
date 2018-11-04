@@ -3,7 +3,7 @@ extern crate rand;
 
 use svg::*;
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Copy)]
 pub struct Point {
     pub x: u32,
     pub y: u32,

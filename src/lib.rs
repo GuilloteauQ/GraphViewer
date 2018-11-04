@@ -15,6 +15,8 @@ pub struct Graph {
     pub n: usize,
     /// The adjacence matrix of the graph
     pub matrix: Vec<Vec<u32>>,
+    /// The vector of points in the graph
+    pub points: Vec<Point>,
 }
 
 impl Graph {
@@ -28,6 +30,7 @@ impl Graph {
         Graph {
             n: n,
             matrix: matrix,
+            points: Vec::new(),
         }
     }
 
@@ -38,15 +41,18 @@ impl Graph {
         // --- Computing the distances between all the points ---
         for (index, pt) in points.iter().enumerate() {
             for j in index + 1..n {
-                graph.add_point(index, j, pt.distance(&points[j]));
+                graph.add_edge(index, j, pt.distance(&points[j]));
             }
+        }
+        for pt in points.iter() {
+            graph.points.push(*pt);
         }
 
         graph
     }
 
-    /// Add a point to the matrix
-    pub fn add_point(&mut self, pt1: usize, pt2: usize, dist: u32) {
+    /// Add an edge in the matrix
+    pub fn add_edge(&mut self, pt1: usize, pt2: usize, dist: u32) {
         self.matrix[pt1][pt2] = dist;
         self.matrix[pt2][pt1] = dist;
     }
@@ -78,9 +84,11 @@ impl Graph {
             }
             // We add the closest point from the spanning tree to the tree
             set_of_points.push(min_pt);
-            result.add_point(min_pt, from_point, self.matrix[min_pt][from_point]);
+            result.add_edge(min_pt, from_point, self.matrix[min_pt][from_point]);
         }
-
+        for pt in self.points.iter() {
+            result.points.push(*pt);
+        }
         result
     }
 
@@ -116,15 +124,15 @@ impl Graph {
 
 
     /// Draws the graph
-    pub fn draw_graph_svg(&self, vec_points: &Vec<Point>, svg_file: &mut Svg) {
+    pub fn draw_graph_svg(&self,  svg_file: &mut Svg) {
         // The header
         svg_file.header();
         // The background
         svg_file.rectangle(0, 0,svg_file.h, svg_file.w, "white".to_string());
-        for (index, pt) in vec_points.iter().enumerate() {
+        for (index, pt) in self.points.iter().enumerate() {
             pt.draw_point(svg_file);
             for (i, _) in self.matrix[index].iter().enumerate().filter(|&(i, _)| self.matrix[index][i] != u32::max_value()) {
-                pt.draw_line(&vec_points[i], svg_file);
+                pt.draw_line(&self.points[i], svg_file);
             }
         }
         // The footer
@@ -147,10 +155,10 @@ mod tests {
         let mut svg_file = Svg::new("out.svg".to_string(), h, w);
         let vec: Vec<Point> = random_vec(w, h, n);
         let graph: Graph = Graph::new_with_points(&vec);
-        graph.draw_graph_svg(&vec, &mut svg_file);
+        graph.draw_graph_svg(&mut svg_file);
         let mut svg_tree = Svg::new("spanning_tree.svg".to_string(), h, w);
         let tree = graph.spanning_tree(0);
-        tree.draw_graph_svg(&vec, &mut svg_tree);
+        tree.draw_graph_svg(&mut svg_tree);
     }
 }
 
