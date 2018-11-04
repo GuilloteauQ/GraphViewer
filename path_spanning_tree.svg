@@ -2,352 +2,352 @@
 
 <svg viewBox='0 0 800 800' version='1.1' xmlns='http://www.w3.org/2000/svg'>
 <rect x='0' y='0' width='800' height='800' fill='white'/>
-<ellipse cx='350' cy='628' rx='3' ry='3' fill='black'/>
-<line x1='350' y1='628' x2='335' y2='669' stroke='blue' stroke-width='1'/>
-<line x1='350' y1='628' x2='406' y2='630' stroke='blue' stroke-width='1'/>
-<line x1='350' y1='628' x2='285' y2='542' stroke='blue' stroke-width='1'/>
-<ellipse cx='556' cy='432' rx='3' ry='3' fill='black'/>
-<line x1='556' y1='432' x2='546' y2='534' stroke='blue' stroke-width='1'/>
-<ellipse cx='208' cy='145' rx='3' ry='3' fill='black'/>
-<line x1='208' y1='145' x2='212' y2='169' stroke='blue' stroke-width='1'/>
-<ellipse cx='346' cy='51' rx='3' ry='3' fill='black'/>
-<line x1='346' y1='51' x2='454' y2='88' stroke='blue' stroke-width='1'/>
-<line x1='346' y1='51' x2='313' y2='112' stroke='blue' stroke-width='1'/>
-<ellipse cx='55' cy='505' rx='3' ry='3' fill='black'/>
-<line x1='55' y1='505' x2='52' y2='568' stroke='blue' stroke-width='1'/>
-<ellipse cx='81' cy='322' rx='3' ry='3' fill='black'/>
-<line x1='81' y1='322' x2='78' y2='290' stroke='blue' stroke-width='1'/>
-<ellipse cx='714' cy='583' rx='3' ry='3' fill='black'/>
-<line x1='714' y1='583' x2='607' y2='615' stroke='blue' stroke-width='1'/>
-<ellipse cx='461' cy='286' rx='3' ry='3' fill='black'/>
-<line x1='461' y1='286' x2='587' y2='302' stroke='blue' stroke-width='1'/>
-<line x1='461' y1='286' x2='392' y2='382' stroke='blue' stroke-width='1'/>
-<ellipse cx='587' cy='302' rx='3' ry='3' fill='black'/>
-<line x1='587' y1='302' x2='461' y2='286' stroke='blue' stroke-width='1'/>
-<line x1='587' y1='302' x2='674' y2='315' stroke='blue' stroke-width='1'/>
-<ellipse cx='623' cy='510' rx='3' ry='3' fill='black'/>
-<line x1='623' y1='510' x2='660' y2='432' stroke='blue' stroke-width='1'/>
-<line x1='623' y1='510' x2='546' y2='534' stroke='blue' stroke-width='1'/>
-<ellipse cx='52' cy='568' rx='3' ry='3' fill='black'/>
-<line x1='52' y1='568' x2='55' y2='505' stroke='blue' stroke-width='1'/>
-<line x1='52' y1='568' x2='40' y2='650' stroke='blue' stroke-width='1'/>
-<line x1='52' y1='568' x2='93' y2='569' stroke='blue' stroke-width='1'/>
-<ellipse cx='40' cy='650' rx='3' ry='3' fill='black'/>
-<line x1='40' y1='650' x2='52' y2='568' stroke='blue' stroke-width='1'/>
-<line x1='40' y1='650' x2='11' y2='657' stroke='blue' stroke-width='1'/>
-<ellipse cx='212' cy='169' rx='3' ry='3' fill='black'/>
-<line x1='212' y1='169' x2='208' y2='145' stroke='blue' stroke-width='1'/>
-<line x1='212' y1='169' x2='249' y2='194' stroke='blue' stroke-width='1'/>
-<line x1='212' y1='169' x2='121' y2='302' stroke='blue' stroke-width='1'/>
-<ellipse cx='10' cy='686' rx='3' ry='3' fill='black'/>
-<line x1='10' y1='686' x2='11' y2='657' stroke='blue' stroke-width='1'/>
-<ellipse cx='202' cy='65' rx='3' ry='3' fill='black'/>
-<line x1='202' y1='65' x2='259' y2='71' stroke='blue' stroke-width='1'/>
-<ellipse cx='646' cy='24' rx='3' ry='3' fill='black'/>
-<line x1='646' y1='24' x2='694' y2='49' stroke='blue' stroke-width='1'/>
-<line x1='646' y1='24' x2='603' y2='21' stroke='blue' stroke-width='1'/>
-<ellipse cx='76' cy='272' rx='3' ry='3' fill='black'/>
-<line x1='76' y1='272' x2='78' y2='290' stroke='blue' stroke-width='1'/>
-<line x1='76' y1='272' x2='25' y2='275' stroke='blue' stroke-width='1'/>
-<ellipse cx='462' cy='750' rx='3' ry='3' fill='black'/>
-<line x1='462' y1='750' x2='406' y2='630' stroke='blue' stroke-width='1'/>
-<ellipse cx='249' cy='194' rx='3' ry='3' fill='black'/>
-<line x1='249' y1='194' x2='212' y2='169' stroke='blue' stroke-width='1'/>
-<line x1='249' y1='194' x2='296' y2='159' stroke='blue' stroke-width='1'/>
-<ellipse cx='8' cy='178' rx='3' ry='3' fill='black'/>
-<line x1='8' y1='178' x2='46' y2='164' stroke='blue' stroke-width='1'/>
-<line x1='8' y1='178' x2='25' y2='275' stroke='blue' stroke-width='1'/>
-<ellipse cx='335' cy='669' rx='3' ry='3' fill='black'/>
-<line x1='335' y1='669' x2='350' y2='628' stroke='blue' stroke-width='1'/>
-<ellipse cx='694' cy='49' rx='3' ry='3' fill='black'/>
-<line x1='694' y1='49' x2='646' y2='24' stroke='blue' stroke-width='1'/>
-<line x1='694' y1='49' x2='672' y2='135' stroke='blue' stroke-width='1'/>
-<ellipse cx='121' cy='302' rx='3' ry='3' fill='black'/>
-<line x1='121' y1='302' x2='212' y2='169' stroke='blue' stroke-width='1'/>
-<line x1='121' y1='302' x2='78' y2='290' stroke='blue' stroke-width='1'/>
-<ellipse cx='11' cy='657' rx='3' ry='3' fill='black'/>
-<line x1='11' y1='657' x2='40' y2='650' stroke='blue' stroke-width='1'/>
-<line x1='11' y1='657' x2='10' y2='686' stroke='blue' stroke-width='1'/>
-<ellipse cx='296' cy='159' rx='3' ry='3' fill='black'/>
-<line x1='296' y1='159' x2='249' y2='194' stroke='blue' stroke-width='1'/>
-<line x1='296' y1='159' x2='313' y2='112' stroke='blue' stroke-width='1'/>
-<ellipse cx='259' cy='71' rx='3' ry='3' fill='black'/>
-<line x1='259' y1='71' x2='202' y2='65' stroke='blue' stroke-width='1'/>
-<line x1='259' y1='71' x2='313' y2='112' stroke='blue' stroke-width='1'/>
-<ellipse cx='202' cy='603' rx='3' ry='3' fill='black'/>
-<line x1='202' y1='603' x2='147' y2='564' stroke='blue' stroke-width='1'/>
-<line x1='202' y1='603' x2='170' y2='644' stroke='blue' stroke-width='1'/>
-<line x1='202' y1='603' x2='285' y2='542' stroke='blue' stroke-width='1'/>
-<ellipse cx='454' cy='88' rx='3' ry='3' fill='black'/>
-<line x1='454' y1='88' x2='346' y2='51' stroke='blue' stroke-width='1'/>
-<line x1='454' y1='88' x2='603' y2='21' stroke='blue' stroke-width='1'/>
-<ellipse cx='672' cy='135' rx='3' ry='3' fill='black'/>
-<line x1='672' y1='135' x2='694' y2='49' stroke='blue' stroke-width='1'/>
-<line x1='672' y1='135' x2='759' y2='186' stroke='blue' stroke-width='1'/>
-<ellipse cx='46' cy='164' rx='3' ry='3' fill='black'/>
-<line x1='46' y1='164' x2='8' y2='178' stroke='blue' stroke-width='1'/>
-<ellipse cx='313' cy='112' rx='3' ry='3' fill='black'/>
-<line x1='313' y1='112' x2='346' y2='51' stroke='blue' stroke-width='1'/>
-<line x1='313' y1='112' x2='296' y2='159' stroke='blue' stroke-width='1'/>
-<line x1='313' y1='112' x2='259' y2='71' stroke='blue' stroke-width='1'/>
-<ellipse cx='406' cy='630' rx='3' ry='3' fill='black'/>
-<line x1='406' y1='630' x2='350' y2='628' stroke='blue' stroke-width='1'/>
-<line x1='406' y1='630' x2='462' y2='750' stroke='blue' stroke-width='1'/>
-<line x1='406' y1='630' x2='546' y2='534' stroke='blue' stroke-width='1'/>
-<ellipse cx='607' cy='615' rx='3' ry='3' fill='black'/>
-<line x1='607' y1='615' x2='714' y2='583' stroke='blue' stroke-width='1'/>
-<line x1='607' y1='615' x2='546' y2='534' stroke='blue' stroke-width='1'/>
-<line x1='607' y1='615' x2='675' y2='789' stroke='blue' stroke-width='1'/>
-<ellipse cx='78' cy='290' rx='3' ry='3' fill='black'/>
-<line x1='78' y1='290' x2='81' y2='322' stroke='blue' stroke-width='1'/>
-<line x1='78' y1='290' x2='76' y2='272' stroke='blue' stroke-width='1'/>
-<line x1='78' y1='290' x2='121' y2='302' stroke='blue' stroke-width='1'/>
-<ellipse cx='25' cy='275' rx='3' ry='3' fill='black'/>
-<line x1='25' y1='275' x2='76' y2='272' stroke='blue' stroke-width='1'/>
-<line x1='25' y1='275' x2='8' y2='178' stroke='blue' stroke-width='1'/>
-<ellipse cx='603' cy='21' rx='3' ry='3' fill='black'/>
-<line x1='603' y1='21' x2='646' y2='24' stroke='blue' stroke-width='1'/>
-<line x1='603' y1='21' x2='454' y2='88' stroke='blue' stroke-width='1'/>
-<ellipse cx='126' cy='590' rx='3' ry='3' fill='black'/>
-<line x1='126' y1='590' x2='93' y2='569' stroke='blue' stroke-width='1'/>
-<line x1='126' y1='590' x2='147' y2='564' stroke='blue' stroke-width='1'/>
-<ellipse cx='660' cy='432' rx='3' ry='3' fill='black'/>
-<line x1='660' y1='432' x2='623' y2='510' stroke='blue' stroke-width='1'/>
-<line x1='660' y1='432' x2='729' y2='342' stroke='blue' stroke-width='1'/>
-<ellipse cx='93' cy='569' rx='3' ry='3' fill='black'/>
-<line x1='93' y1='569' x2='52' y2='568' stroke='blue' stroke-width='1'/>
-<line x1='93' y1='569' x2='126' y2='590' stroke='blue' stroke-width='1'/>
-<ellipse cx='147' cy='564' rx='3' ry='3' fill='black'/>
-<line x1='147' y1='564' x2='202' y2='603' stroke='blue' stroke-width='1'/>
-<line x1='147' y1='564' x2='126' y2='590' stroke='blue' stroke-width='1'/>
-<ellipse cx='759' cy='186' rx='3' ry='3' fill='black'/>
-<line x1='759' y1='186' x2='672' y2='135' stroke='blue' stroke-width='1'/>
-<line x1='759' y1='186' x2='674' y2='315' stroke='blue' stroke-width='1'/>
-<ellipse cx='170' cy='644' rx='3' ry='3' fill='black'/>
-<line x1='170' y1='644' x2='202' y2='603' stroke='blue' stroke-width='1'/>
-<line x1='170' y1='644' x2='215' y2='698' stroke='blue' stroke-width='1'/>
-<ellipse cx='729' cy='342' rx='3' ry='3' fill='black'/>
-<line x1='729' y1='342' x2='660' y2='432' stroke='blue' stroke-width='1'/>
-<line x1='729' y1='342' x2='674' y2='315' stroke='blue' stroke-width='1'/>
-<ellipse cx='546' cy='534' rx='3' ry='3' fill='black'/>
-<line x1='546' y1='534' x2='556' y2='432' stroke='blue' stroke-width='1'/>
-<line x1='546' y1='534' x2='623' y2='510' stroke='blue' stroke-width='1'/>
-<line x1='546' y1='534' x2='406' y2='630' stroke='blue' stroke-width='1'/>
-<line x1='546' y1='534' x2='607' y2='615' stroke='blue' stroke-width='1'/>
-<ellipse cx='285' cy='542' rx='3' ry='3' fill='black'/>
-<line x1='285' y1='542' x2='350' y2='628' stroke='blue' stroke-width='1'/>
-<line x1='285' y1='542' x2='202' y2='603' stroke='blue' stroke-width='1'/>
-<ellipse cx='392' cy='382' rx='3' ry='3' fill='black'/>
-<line x1='392' y1='382' x2='461' y2='286' stroke='blue' stroke-width='1'/>
-<ellipse cx='674' cy='315' rx='3' ry='3' fill='black'/>
-<line x1='674' y1='315' x2='587' y2='302' stroke='blue' stroke-width='1'/>
-<line x1='674' y1='315' x2='759' y2='186' stroke='blue' stroke-width='1'/>
-<line x1='674' y1='315' x2='729' y2='342' stroke='blue' stroke-width='1'/>
-<ellipse cx='124' cy='760' rx='3' ry='3' fill='black'/>
-<line x1='124' y1='760' x2='215' y2='698' stroke='blue' stroke-width='1'/>
-<ellipse cx='675' cy='789' rx='3' ry='3' fill='black'/>
-<line x1='675' y1='789' x2='607' y2='615' stroke='blue' stroke-width='1'/>
-<ellipse cx='215' cy='698' rx='3' ry='3' fill='black'/>
-<line x1='215' y1='698' x2='170' y2='644' stroke='blue' stroke-width='1'/>
-<line x1='215' y1='698' x2='124' y2='760' stroke='blue' stroke-width='1'/>
-<line x1='350' y1='628' x2='350' y2='628' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='350' begin='201ms' />
-<set attributeName='y2' attributeType='XML' to='628' begin='201ms'/>
+<ellipse cx='0' cy='0' rx='3' ry='3' fill='black'/>
+<line x1='0' y1='0' x2='97' y2='56' stroke='blue' stroke-width='1'/>
+<ellipse cx='795' cy='332' rx='3' ry='3' fill='black'/>
+<line x1='795' y1='332' x2='792' y2='432' stroke='blue' stroke-width='1'/>
+<line x1='795' y1='332' x2='786' y2='300' stroke='blue' stroke-width='1'/>
+<ellipse cx='285' cy='445' rx='3' ry='3' fill='black'/>
+<line x1='285' y1='445' x2='297' y2='430' stroke='blue' stroke-width='1'/>
+<line x1='285' y1='445' x2='250' y2='425' stroke='blue' stroke-width='1'/>
+<ellipse cx='341' cy='372' rx='3' ry='3' fill='black'/>
+<line x1='341' y1='372' x2='297' y2='430' stroke='blue' stroke-width='1'/>
+<line x1='341' y1='372' x2='303' y2='318' stroke='blue' stroke-width='1'/>
+<ellipse cx='424' cy='169' rx='3' ry='3' fill='black'/>
+<line x1='424' y1='169' x2='528' y2='206' stroke='blue' stroke-width='1'/>
+<line x1='424' y1='169' x2='378' y2='194' stroke='blue' stroke-width='1'/>
+<ellipse cx='528' cy='206' rx='3' ry='3' fill='black'/>
+<line x1='528' y1='206' x2='424' y2='169' stroke='blue' stroke-width='1'/>
+<line x1='528' y1='206' x2='622' y2='281' stroke='blue' stroke-width='1'/>
+<line x1='528' y1='206' x2='549' y2='83' stroke='blue' stroke-width='1'/>
+<ellipse cx='750' cy='613' rx='3' ry='3' fill='black'/>
+<line x1='750' y1='613' x2='712' y2='568' stroke='blue' stroke-width='1'/>
+<ellipse cx='676' cy='755' rx='3' ry='3' fill='black'/>
+<line x1='676' y1='755' x2='713' y2='752' stroke='blue' stroke-width='1'/>
+<line x1='676' y1='755' x2='592' y2='759' stroke='blue' stroke-width='1'/>
+<ellipse cx='472' cy='746' rx='3' ry='3' fill='black'/>
+<line x1='472' y1='746' x2='481' y2='780' stroke='blue' stroke-width='1'/>
+<ellipse cx='773' cy='774' rx='3' ry='3' fill='black'/>
+<line x1='773' y1='774' x2='713' y2='752' stroke='blue' stroke-width='1'/>
+<ellipse cx='297' cy='430' rx='3' ry='3' fill='black'/>
+<line x1='297' y1='430' x2='285' y2='445' stroke='blue' stroke-width='1'/>
+<line x1='297' y1='430' x2='341' y2='372' stroke='blue' stroke-width='1'/>
+<line x1='297' y1='430' x2='381' y2='491' stroke='blue' stroke-width='1'/>
+<ellipse cx='657' cy='425' rx='3' ry='3' fill='black'/>
+<line x1='657' y1='425' x2='675' y2='415' stroke='blue' stroke-width='1'/>
+<ellipse cx='428' cy='779' rx='3' ry='3' fill='black'/>
+<line x1='428' y1='779' x2='481' y2='780' stroke='blue' stroke-width='1'/>
+<ellipse cx='434' cy='298' rx='3' ry='3' fill='black'/>
+<line x1='434' y1='298' x2='503' y2='357' stroke='blue' stroke-width='1'/>
+<line x1='434' y1='298' x2='378' y2='194' stroke='blue' stroke-width='1'/>
+<ellipse cx='713' cy='752' rx='3' ry='3' fill='black'/>
+<line x1='713' y1='752' x2='676' y2='755' stroke='blue' stroke-width='1'/>
+<line x1='713' y1='752' x2='773' y2='774' stroke='blue' stroke-width='1'/>
+<ellipse cx='291' cy='637' rx='3' ry='3' fill='black'/>
+<line x1='291' y1='637' x2='381' y2='491' stroke='blue' stroke-width='1'/>
+<line x1='291' y1='637' x2='220' y2='698' stroke='blue' stroke-width='1'/>
+<ellipse cx='622' cy='281' rx='3' ry='3' fill='black'/>
+<line x1='622' y1='281' x2='528' y2='206' stroke='blue' stroke-width='1'/>
+<line x1='622' y1='281' x2='722' y2='277' stroke='blue' stroke-width='1'/>
+<ellipse cx='51' cy='637' rx='3' ry='3' fill='black'/>
+<line x1='51' y1='637' x2='153' y2='630' stroke='blue' stroke-width='1'/>
+<line x1='51' y1='637' x2='20' y2='596' stroke='blue' stroke-width='1'/>
+<line x1='51' y1='637' x2='0' y2='738' stroke='blue' stroke-width='1'/>
+<ellipse cx='792' cy='432' rx='3' ry='3' fill='black'/>
+<line x1='792' y1='432' x2='795' y2='332' stroke='blue' stroke-width='1'/>
+<line x1='792' y1='432' x2='675' y2='415' stroke='blue' stroke-width='1'/>
+<ellipse cx='153' cy='630' rx='3' ry='3' fill='black'/>
+<line x1='153' y1='630' x2='51' y2='637' stroke='blue' stroke-width='1'/>
+<line x1='153' y1='630' x2='196' y2='689' stroke='blue' stroke-width='1'/>
+<ellipse cx='20' cy='596' rx='3' ry='3' fill='black'/>
+<line x1='20' y1='596' x2='51' y2='637' stroke='blue' stroke-width='1'/>
+<ellipse cx='549' cy='83' rx='3' ry='3' fill='black'/>
+<line x1='549' y1='83' x2='528' y2='206' stroke='blue' stroke-width='1'/>
+<line x1='549' y1='83' x2='588' y2='37' stroke='blue' stroke-width='1'/>
+<ellipse cx='592' cy='759' rx='3' ry='3' fill='black'/>
+<line x1='592' y1='759' x2='676' y2='755' stroke='blue' stroke-width='1'/>
+<line x1='592' y1='759' x2='572' y2='669' stroke='blue' stroke-width='1'/>
+<line x1='592' y1='759' x2='481' y2='780' stroke='blue' stroke-width='1'/>
+<ellipse cx='503' cy='357' rx='3' ry='3' fill='black'/>
+<line x1='503' y1='357' x2='434' y2='298' stroke='blue' stroke-width='1'/>
+<ellipse cx='773' cy='143' rx='3' ry='3' fill='black'/>
+<line x1='773' y1='143' x2='731' y2='116' stroke='blue' stroke-width='1'/>
+<ellipse cx='267' cy='47' rx='3' ry='3' fill='black'/>
+<line x1='267' y1='47' x2='378' y2='194' stroke='blue' stroke-width='1'/>
+<line x1='267' y1='47' x2='97' y2='56' stroke='blue' stroke-width='1'/>
+<ellipse cx='274' cy='305' rx='3' ry='3' fill='black'/>
+<line x1='274' y1='305' x2='303' y2='318' stroke='blue' stroke-width='1'/>
+<ellipse cx='381' cy='491' rx='3' ry='3' fill='black'/>
+<line x1='381' y1='491' x2='297' y2='430' stroke='blue' stroke-width='1'/>
+<line x1='381' y1='491' x2='291' y2='637' stroke='blue' stroke-width='1'/>
+<line x1='381' y1='491' x2='484' y2='546' stroke='blue' stroke-width='1'/>
+<ellipse cx='220' cy='698' rx='3' ry='3' fill='black'/>
+<line x1='220' y1='698' x2='291' y2='637' stroke='blue' stroke-width='1'/>
+<line x1='220' y1='698' x2='196' y2='689' stroke='blue' stroke-width='1'/>
+<ellipse cx='572' cy='669' rx='3' ry='3' fill='black'/>
+<line x1='572' y1='669' x2='592' y2='759' stroke='blue' stroke-width='1'/>
+<line x1='572' y1='669' x2='484' y2='546' stroke='blue' stroke-width='1'/>
+<line x1='572' y1='669' x2='632' y2='625' stroke='blue' stroke-width='1'/>
+<ellipse cx='731' cy='116' rx='3' ry='3' fill='black'/>
+<line x1='731' y1='116' x2='773' y2='143' stroke='blue' stroke-width='1'/>
+<line x1='731' y1='116' x2='708' y2='191' stroke='blue' stroke-width='1'/>
+<ellipse cx='303' cy='318' rx='3' ry='3' fill='black'/>
+<line x1='303' y1='318' x2='341' y2='372' stroke='blue' stroke-width='1'/>
+<line x1='303' y1='318' x2='274' y2='305' stroke='blue' stroke-width='1'/>
+<line x1='303' y1='318' x2='348' y2='213' stroke='blue' stroke-width='1'/>
+<ellipse cx='99' cy='168' rx='3' ry='3' fill='black'/>
+<line x1='99' y1='168' x2='97' y2='56' stroke='blue' stroke-width='1'/>
+<ellipse cx='378' cy='194' rx='3' ry='3' fill='black'/>
+<line x1='378' y1='194' x2='424' y2='169' stroke='blue' stroke-width='1'/>
+<line x1='378' y1='194' x2='434' y2='298' stroke='blue' stroke-width='1'/>
+<line x1='378' y1='194' x2='267' y2='47' stroke='blue' stroke-width='1'/>
+<line x1='378' y1='194' x2='348' y2='213' stroke='blue' stroke-width='1'/>
+<ellipse cx='675' cy='415' rx='3' ry='3' fill='black'/>
+<line x1='675' y1='415' x2='657' y2='425' stroke='blue' stroke-width='1'/>
+<line x1='675' y1='415' x2='792' y2='432' stroke='blue' stroke-width='1'/>
+<ellipse cx='196' cy='689' rx='3' ry='3' fill='black'/>
+<line x1='196' y1='689' x2='153' y2='630' stroke='blue' stroke-width='1'/>
+<line x1='196' y1='689' x2='220' y2='698' stroke='blue' stroke-width='1'/>
+<ellipse cx='644' cy='600' rx='3' ry='3' fill='black'/>
+<line x1='644' y1='600' x2='712' y2='568' stroke='blue' stroke-width='1'/>
+<line x1='644' y1='600' x2='632' y2='625' stroke='blue' stroke-width='1'/>
+<ellipse cx='588' cy='37' rx='3' ry='3' fill='black'/>
+<line x1='588' y1='37' x2='549' y2='83' stroke='blue' stroke-width='1'/>
+<ellipse cx='722' cy='277' rx='3' ry='3' fill='black'/>
+<line x1='722' y1='277' x2='622' y2='281' stroke='blue' stroke-width='1'/>
+<line x1='722' y1='277' x2='786' y2='300' stroke='blue' stroke-width='1'/>
+<line x1='722' y1='277' x2='708' y2='191' stroke='blue' stroke-width='1'/>
+<ellipse cx='250' cy='425' rx='3' ry='3' fill='black'/>
+<line x1='250' y1='425' x2='285' y2='445' stroke='blue' stroke-width='1'/>
+<line x1='250' y1='425' x2='82' y2='403' stroke='blue' stroke-width='1'/>
+<ellipse cx='712' cy='568' rx='3' ry='3' fill='black'/>
+<line x1='712' y1='568' x2='750' y2='613' stroke='blue' stroke-width='1'/>
+<line x1='712' y1='568' x2='644' y2='600' stroke='blue' stroke-width='1'/>
+<ellipse cx='97' cy='56' rx='3' ry='3' fill='black'/>
+<line x1='97' y1='56' x2='0' y2='0' stroke='blue' stroke-width='1'/>
+<line x1='97' y1='56' x2='267' y2='47' stroke='blue' stroke-width='1'/>
+<line x1='97' y1='56' x2='99' y2='168' stroke='blue' stroke-width='1'/>
+<ellipse cx='786' cy='300' rx='3' ry='3' fill='black'/>
+<line x1='786' y1='300' x2='795' y2='332' stroke='blue' stroke-width='1'/>
+<line x1='786' y1='300' x2='722' y2='277' stroke='blue' stroke-width='1'/>
+<ellipse cx='82' cy='403' rx='3' ry='3' fill='black'/>
+<line x1='82' y1='403' x2='250' y2='425' stroke='blue' stroke-width='1'/>
+<ellipse cx='708' cy='191' rx='3' ry='3' fill='black'/>
+<line x1='708' y1='191' x2='731' y2='116' stroke='blue' stroke-width='1'/>
+<line x1='708' y1='191' x2='722' y2='277' stroke='blue' stroke-width='1'/>
+<ellipse cx='348' cy='213' rx='3' ry='3' fill='black'/>
+<line x1='348' y1='213' x2='303' y2='318' stroke='blue' stroke-width='1'/>
+<line x1='348' y1='213' x2='378' y2='194' stroke='blue' stroke-width='1'/>
+<ellipse cx='481' cy='780' rx='3' ry='3' fill='black'/>
+<line x1='481' y1='780' x2='472' y2='746' stroke='blue' stroke-width='1'/>
+<line x1='481' y1='780' x2='428' y2='779' stroke='blue' stroke-width='1'/>
+<line x1='481' y1='780' x2='592' y2='759' stroke='blue' stroke-width='1'/>
+<ellipse cx='484' cy='546' rx='3' ry='3' fill='black'/>
+<line x1='484' y1='546' x2='381' y2='491' stroke='blue' stroke-width='1'/>
+<line x1='484' y1='546' x2='572' y2='669' stroke='blue' stroke-width='1'/>
+<ellipse cx='632' cy='625' rx='3' ry='3' fill='black'/>
+<line x1='632' y1='625' x2='572' y2='669' stroke='blue' stroke-width='1'/>
+<line x1='632' y1='625' x2='644' y2='600' stroke='blue' stroke-width='1'/>
+<ellipse cx='0' cy='738' rx='3' ry='3' fill='black'/>
+<line x1='0' y1='738' x2='51' y2='637' stroke='blue' stroke-width='1'/>
+<line x1='0' y1='0' x2='0' y2='0' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='0' begin='201ms' />
+<set attributeName='y2' attributeType='XML' to='0' begin='201ms'/>
 </line>
-<line x1='350' y1='628' x2='350' y2='628' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='285' begin='401ms' />
-<set attributeName='y2' attributeType='XML' to='542' begin='401ms'/>
+<line x1='0' y1='0' x2='0' y2='0' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='97' begin='401ms' />
+<set attributeName='y2' attributeType='XML' to='56' begin='401ms'/>
 </line>
-<line x1='285' y1='542' x2='285' y2='542' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='202' begin='601ms' />
-<set attributeName='y2' attributeType='XML' to='603' begin='601ms'/>
+<line x1='97' y1='56' x2='97' y2='56' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='99' begin='601ms' />
+<set attributeName='y2' attributeType='XML' to='168' begin='601ms'/>
 </line>
-<line x1='202' y1='603' x2='202' y2='603' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='170' begin='801ms' />
-<set attributeName='y2' attributeType='XML' to='644' begin='801ms'/>
+<line x1='99' y1='168' x2='99' y2='168' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='267' begin='801ms' />
+<set attributeName='y2' attributeType='XML' to='47' begin='801ms'/>
 </line>
-<line x1='170' y1='644' x2='170' y2='644' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='215' begin='1001ms' />
-<set attributeName='y2' attributeType='XML' to='698' begin='1001ms'/>
+<line x1='267' y1='47' x2='267' y2='47' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='378' begin='1001ms' />
+<set attributeName='y2' attributeType='XML' to='194' begin='1001ms'/>
 </line>
-<line x1='215' y1='698' x2='215' y2='698' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='124' begin='1201ms' />
-<set attributeName='y2' attributeType='XML' to='760' begin='1201ms'/>
+<line x1='378' y1='194' x2='378' y2='194' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='348' begin='1201ms' />
+<set attributeName='y2' attributeType='XML' to='213' begin='1201ms'/>
 </line>
-<line x1='124' y1='760' x2='124' y2='760' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='147' begin='1401ms' />
-<set attributeName='y2' attributeType='XML' to='564' begin='1401ms'/>
+<line x1='348' y1='213' x2='348' y2='213' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='303' begin='1401ms' />
+<set attributeName='y2' attributeType='XML' to='318' begin='1401ms'/>
 </line>
-<line x1='147' y1='564' x2='147' y2='564' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='126' begin='1601ms' />
-<set attributeName='y2' attributeType='XML' to='590' begin='1601ms'/>
+<line x1='303' y1='318' x2='303' y2='318' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='274' begin='1601ms' />
+<set attributeName='y2' attributeType='XML' to='305' begin='1601ms'/>
 </line>
-<line x1='126' y1='590' x2='126' y2='590' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='93' begin='1801ms' />
-<set attributeName='y2' attributeType='XML' to='569' begin='1801ms'/>
+<line x1='274' y1='305' x2='274' y2='305' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='341' begin='1801ms' />
+<set attributeName='y2' attributeType='XML' to='372' begin='1801ms'/>
 </line>
-<line x1='93' y1='569' x2='93' y2='569' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='52' begin='2001ms' />
-<set attributeName='y2' attributeType='XML' to='568' begin='2001ms'/>
+<line x1='341' y1='372' x2='341' y2='372' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='297' begin='2001ms' />
+<set attributeName='y2' attributeType='XML' to='430' begin='2001ms'/>
 </line>
-<line x1='52' y1='568' x2='52' y2='568' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='40' begin='2201ms' />
-<set attributeName='y2' attributeType='XML' to='650' begin='2201ms'/>
+<line x1='297' y1='430' x2='297' y2='430' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='381' begin='2201ms' />
+<set attributeName='y2' attributeType='XML' to='491' begin='2201ms'/>
 </line>
-<line x1='40' y1='650' x2='40' y2='650' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='11' begin='2401ms' />
-<set attributeName='y2' attributeType='XML' to='657' begin='2401ms'/>
+<line x1='381' y1='491' x2='381' y2='491' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='484' begin='2401ms' />
+<set attributeName='y2' attributeType='XML' to='546' begin='2401ms'/>
 </line>
-<line x1='11' y1='657' x2='11' y2='657' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='10' begin='2601ms' />
-<set attributeName='y2' attributeType='XML' to='686' begin='2601ms'/>
+<line x1='484' y1='546' x2='484' y2='546' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='572' begin='2601ms' />
+<set attributeName='y2' attributeType='XML' to='669' begin='2601ms'/>
 </line>
-<line x1='10' y1='686' x2='10' y2='686' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='55' begin='2801ms' />
-<set attributeName='y2' attributeType='XML' to='505' begin='2801ms'/>
+<line x1='572' y1='669' x2='572' y2='669' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='632' begin='2801ms' />
+<set attributeName='y2' attributeType='XML' to='625' begin='2801ms'/>
 </line>
-<line x1='55' y1='505' x2='55' y2='505' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='406' begin='3001ms' />
-<set attributeName='y2' attributeType='XML' to='630' begin='3001ms'/>
+<line x1='632' y1='625' x2='632' y2='625' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='644' begin='3001ms' />
+<set attributeName='y2' attributeType='XML' to='600' begin='3001ms'/>
 </line>
-<line x1='406' y1='630' x2='406' y2='630' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='546' begin='3201ms' />
-<set attributeName='y2' attributeType='XML' to='534' begin='3201ms'/>
+<line x1='644' y1='600' x2='644' y2='600' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='712' begin='3201ms' />
+<set attributeName='y2' attributeType='XML' to='568' begin='3201ms'/>
 </line>
-<line x1='546' y1='534' x2='546' y2='534' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='607' begin='3401ms' />
-<set attributeName='y2' attributeType='XML' to='615' begin='3401ms'/>
+<line x1='712' y1='568' x2='712' y2='568' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='750' begin='3401ms' />
+<set attributeName='y2' attributeType='XML' to='613' begin='3401ms'/>
 </line>
-<line x1='607' y1='615' x2='607' y2='615' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='675' begin='3601ms' />
-<set attributeName='y2' attributeType='XML' to='789' begin='3601ms'/>
+<line x1='750' y1='613' x2='750' y2='613' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='592' begin='3601ms' />
+<set attributeName='y2' attributeType='XML' to='759' begin='3601ms'/>
 </line>
-<line x1='675' y1='789' x2='675' y2='789' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='714' begin='3801ms' />
-<set attributeName='y2' attributeType='XML' to='583' begin='3801ms'/>
+<line x1='592' y1='759' x2='592' y2='759' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='481' begin='3801ms' />
+<set attributeName='y2' attributeType='XML' to='780' begin='3801ms'/>
 </line>
-<line x1='714' y1='583' x2='714' y2='583' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='623' begin='4001ms' />
-<set attributeName='y2' attributeType='XML' to='510' begin='4001ms'/>
+<line x1='481' y1='780' x2='481' y2='780' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='428' begin='4001ms' />
+<set attributeName='y2' attributeType='XML' to='779' begin='4001ms'/>
 </line>
-<line x1='623' y1='510' x2='623' y2='510' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='660' begin='4201ms' />
-<set attributeName='y2' attributeType='XML' to='432' begin='4201ms'/>
+<line x1='428' y1='779' x2='428' y2='779' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='472' begin='4201ms' />
+<set attributeName='y2' attributeType='XML' to='746' begin='4201ms'/>
 </line>
-<line x1='660' y1='432' x2='660' y2='432' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='729' begin='4401ms' />
-<set attributeName='y2' attributeType='XML' to='342' begin='4401ms'/>
+<line x1='472' y1='746' x2='472' y2='746' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='676' begin='4401ms' />
+<set attributeName='y2' attributeType='XML' to='755' begin='4401ms'/>
 </line>
-<line x1='729' y1='342' x2='729' y2='342' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='674' begin='4601ms' />
-<set attributeName='y2' attributeType='XML' to='315' begin='4601ms'/>
+<line x1='676' y1='755' x2='676' y2='755' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='713' begin='4601ms' />
+<set attributeName='y2' attributeType='XML' to='752' begin='4601ms'/>
 </line>
-<line x1='674' y1='315' x2='674' y2='315' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='759' begin='4801ms' />
-<set attributeName='y2' attributeType='XML' to='186' begin='4801ms'/>
+<line x1='713' y1='752' x2='713' y2='752' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='773' begin='4801ms' />
+<set attributeName='y2' attributeType='XML' to='774' begin='4801ms'/>
 </line>
-<line x1='759' y1='186' x2='759' y2='186' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='672' begin='5001ms' />
-<set attributeName='y2' attributeType='XML' to='135' begin='5001ms'/>
+<line x1='773' y1='774' x2='773' y2='774' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='291' begin='5001ms' />
+<set attributeName='y2' attributeType='XML' to='637' begin='5001ms'/>
 </line>
-<line x1='672' y1='135' x2='672' y2='135' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='694' begin='5201ms' />
-<set attributeName='y2' attributeType='XML' to='49' begin='5201ms'/>
+<line x1='291' y1='637' x2='291' y2='637' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='220' begin='5201ms' />
+<set attributeName='y2' attributeType='XML' to='698' begin='5201ms'/>
 </line>
-<line x1='694' y1='49' x2='694' y2='49' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='646' begin='5401ms' />
-<set attributeName='y2' attributeType='XML' to='24' begin='5401ms'/>
+<line x1='220' y1='698' x2='220' y2='698' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='196' begin='5401ms' />
+<set attributeName='y2' attributeType='XML' to='689' begin='5401ms'/>
 </line>
-<line x1='646' y1='24' x2='646' y2='24' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='603' begin='5601ms' />
-<set attributeName='y2' attributeType='XML' to='21' begin='5601ms'/>
+<line x1='196' y1='689' x2='196' y2='689' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='153' begin='5601ms' />
+<set attributeName='y2' attributeType='XML' to='630' begin='5601ms'/>
 </line>
-<line x1='603' y1='21' x2='603' y2='21' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='454' begin='5801ms' />
-<set attributeName='y2' attributeType='XML' to='88' begin='5801ms'/>
+<line x1='153' y1='630' x2='153' y2='630' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='51' begin='5801ms' />
+<set attributeName='y2' attributeType='XML' to='637' begin='5801ms'/>
 </line>
-<line x1='454' y1='88' x2='454' y2='88' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='346' begin='6001ms' />
-<set attributeName='y2' attributeType='XML' to='51' begin='6001ms'/>
+<line x1='51' y1='637' x2='51' y2='637' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='0' begin='6001ms' />
+<set attributeName='y2' attributeType='XML' to='738' begin='6001ms'/>
 </line>
-<line x1='346' y1='51' x2='346' y2='51' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='313' begin='6201ms' />
-<set attributeName='y2' attributeType='XML' to='112' begin='6201ms'/>
+<line x1='0' y1='738' x2='0' y2='738' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='20' begin='6201ms' />
+<set attributeName='y2' attributeType='XML' to='596' begin='6201ms'/>
 </line>
-<line x1='313' y1='112' x2='313' y2='112' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='259' begin='6401ms' />
-<set attributeName='y2' attributeType='XML' to='71' begin='6401ms'/>
+<line x1='20' y1='596' x2='20' y2='596' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='285' begin='6401ms' />
+<set attributeName='y2' attributeType='XML' to='445' begin='6401ms'/>
 </line>
-<line x1='259' y1='71' x2='259' y2='71' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='202' begin='6601ms' />
-<set attributeName='y2' attributeType='XML' to='65' begin='6601ms'/>
+<line x1='285' y1='445' x2='285' y2='445' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='250' begin='6601ms' />
+<set attributeName='y2' attributeType='XML' to='425' begin='6601ms'/>
 </line>
-<line x1='202' y1='65' x2='202' y2='65' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='296' begin='6801ms' />
-<set attributeName='y2' attributeType='XML' to='159' begin='6801ms'/>
+<line x1='250' y1='425' x2='250' y2='425' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='82' begin='6801ms' />
+<set attributeName='y2' attributeType='XML' to='403' begin='6801ms'/>
 </line>
-<line x1='296' y1='159' x2='296' y2='159' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='249' begin='7001ms' />
-<set attributeName='y2' attributeType='XML' to='194' begin='7001ms'/>
+<line x1='82' y1='403' x2='82' y2='403' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='434' begin='7001ms' />
+<set attributeName='y2' attributeType='XML' to='298' begin='7001ms'/>
 </line>
-<line x1='249' y1='194' x2='249' y2='194' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='212' begin='7201ms' />
-<set attributeName='y2' attributeType='XML' to='169' begin='7201ms'/>
+<line x1='434' y1='298' x2='434' y2='298' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='503' begin='7201ms' />
+<set attributeName='y2' attributeType='XML' to='357' begin='7201ms'/>
 </line>
-<line x1='212' y1='169' x2='212' y2='169' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='121' begin='7401ms' />
-<set attributeName='y2' attributeType='XML' to='302' begin='7401ms'/>
+<line x1='503' y1='357' x2='503' y2='357' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='424' begin='7401ms' />
+<set attributeName='y2' attributeType='XML' to='169' begin='7401ms'/>
 </line>
-<line x1='121' y1='302' x2='121' y2='302' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='78' begin='7601ms' />
-<set attributeName='y2' attributeType='XML' to='290' begin='7601ms'/>
+<line x1='424' y1='169' x2='424' y2='169' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='528' begin='7601ms' />
+<set attributeName='y2' attributeType='XML' to='206' begin='7601ms'/>
 </line>
-<line x1='78' y1='290' x2='78' y2='290' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='76' begin='7801ms' />
-<set attributeName='y2' attributeType='XML' to='272' begin='7801ms'/>
+<line x1='528' y1='206' x2='528' y2='206' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='549' begin='7801ms' />
+<set attributeName='y2' attributeType='XML' to='83' begin='7801ms'/>
 </line>
-<line x1='76' y1='272' x2='76' y2='272' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='25' begin='8001ms' />
-<set attributeName='y2' attributeType='XML' to='275' begin='8001ms'/>
+<line x1='549' y1='83' x2='549' y2='83' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='588' begin='8001ms' />
+<set attributeName='y2' attributeType='XML' to='37' begin='8001ms'/>
 </line>
-<line x1='25' y1='275' x2='25' y2='275' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='8' begin='8201ms' />
-<set attributeName='y2' attributeType='XML' to='178' begin='8201ms'/>
+<line x1='588' y1='37' x2='588' y2='37' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='622' begin='8201ms' />
+<set attributeName='y2' attributeType='XML' to='281' begin='8201ms'/>
 </line>
-<line x1='8' y1='178' x2='8' y2='178' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='46' begin='8401ms' />
-<set attributeName='y2' attributeType='XML' to='164' begin='8401ms'/>
+<line x1='622' y1='281' x2='622' y2='281' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='722' begin='8401ms' />
+<set attributeName='y2' attributeType='XML' to='277' begin='8401ms'/>
 </line>
-<line x1='46' y1='164' x2='46' y2='164' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='81' begin='8601ms' />
-<set attributeName='y2' attributeType='XML' to='322' begin='8601ms'/>
+<line x1='722' y1='277' x2='722' y2='277' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='708' begin='8601ms' />
+<set attributeName='y2' attributeType='XML' to='191' begin='8601ms'/>
 </line>
-<line x1='81' y1='322' x2='81' y2='322' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='208' begin='8801ms' />
-<set attributeName='y2' attributeType='XML' to='145' begin='8801ms'/>
+<line x1='708' y1='191' x2='708' y2='191' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='731' begin='8801ms' />
+<set attributeName='y2' attributeType='XML' to='116' begin='8801ms'/>
 </line>
-<line x1='208' y1='145' x2='208' y2='145' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='587' begin='9001ms' />
-<set attributeName='y2' attributeType='XML' to='302' begin='9001ms'/>
+<line x1='731' y1='116' x2='731' y2='116' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='773' begin='9001ms' />
+<set attributeName='y2' attributeType='XML' to='143' begin='9001ms'/>
 </line>
-<line x1='587' y1='302' x2='587' y2='302' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='461' begin='9201ms' />
-<set attributeName='y2' attributeType='XML' to='286' begin='9201ms'/>
+<line x1='773' y1='143' x2='773' y2='143' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='786' begin='9201ms' />
+<set attributeName='y2' attributeType='XML' to='300' begin='9201ms'/>
 </line>
-<line x1='461' y1='286' x2='461' y2='286' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='392' begin='9401ms' />
-<set attributeName='y2' attributeType='XML' to='382' begin='9401ms'/>
+<line x1='786' y1='300' x2='786' y2='300' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='795' begin='9401ms' />
+<set attributeName='y2' attributeType='XML' to='332' begin='9401ms'/>
 </line>
-<line x1='392' y1='382' x2='392' y2='382' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='556' begin='9601ms' />
+<line x1='795' y1='332' x2='795' y2='332' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='792' begin='9601ms' />
 <set attributeName='y2' attributeType='XML' to='432' begin='9601ms'/>
 </line>
-<line x1='556' y1='432' x2='556' y2='432' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='462' begin='9801ms' />
-<set attributeName='y2' attributeType='XML' to='750' begin='9801ms'/>
+<line x1='792' y1='432' x2='792' y2='432' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='675' begin='9801ms' />
+<set attributeName='y2' attributeType='XML' to='415' begin='9801ms'/>
 </line>
-<line x1='462' y1='750' x2='462' y2='750' stroke='red' stroke-width='2'>
-<set attributeName='x2' attributeType='XML' to='335' begin='10001ms' />
-<set attributeName='y2' attributeType='XML' to='669' begin='10001ms'/>
+<line x1='675' y1='415' x2='675' y2='415' stroke='red' stroke-width='2'>
+<set attributeName='x2' attributeType='XML' to='657' begin='10001ms' />
+<set attributeName='y2' attributeType='XML' to='425' begin='10001ms'/>
 </line>
 </svg>

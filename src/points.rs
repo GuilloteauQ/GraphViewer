@@ -72,7 +72,8 @@ impl Point {
 /// Returns a vector of random points
 pub fn random_vec(size_x: u32, size_y: u32, n: u32) -> Vec<Point> {
     let mut vec: Vec<Point> = Vec::new();
-    let mut index: u32 = 0;
+    let mut index: u32 = 1;
+    vec.push(Point::new(0, 0));
     while index < n {
         let pt: Point = Point::random_point(size_x, size_y);
         if !pt.is_in(&vec) {
