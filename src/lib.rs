@@ -212,43 +212,75 @@ impl Graph {
 
 }
 
+pub fn greedy_path(mut vec: &mut Vec<Point>, svg_file: &mut Svg) -> u32 {
+    let n = vec.len();
+    svg_file.rectangle(0, 0,svg_file.h, svg_file.w, "white".to_string());
+    for pt in vec.iter() {
+        pt.draw_point(svg_file);
+    }
+    // --- Definition of the main variables ---
+    let mut current: Point = vec.swap_remove(0); //Point::new(0, 0);
+    let mut cumulated_distance: u32 = 0;
+    // --- End of the Definition of the main variables ---
+    while vec.len() > 0 {
+        let closest: Point = current.closest_point(&mut vec);
+        cumulated_distance += current.distance(&closest);
+        current.draw_animated_line_red(&closest, svg_file, ((n - vec.len()) * 10000 / n) as u32);
+        current = closest;
+    }
+    cumulated_distance
+}
+
+
+
 
 #[cfg(test)]
 mod tests {
     use svg::*;
     use points::*;
-    use super::Graph;
+    use super::*;
 
     #[test]
     fn random_graph() {
+        // ----- Defining main variables -----
         let w = 800;
         let h = 800;
         let n = 50;
         let mut svg_file = Svg::new("out.svg".to_string(), h, w);
-        let vec: Vec<Point> = random_vec(w, h, n);
+        let mut vec: Vec<Point> = random_vec(w, h, n);
         let graph: Graph = Graph::new_with_points(&vec);
+
+        // ----- Drawing the full graph -----
         svg_file.header();
         graph.draw_graph_svg(&mut svg_file);
         svg_file.footer();
+
+        // ----- Drawing the spanning tree -----
         let mut svg_tree = Svg::new("spanning_tree.svg".to_string(), h, w);
         svg_tree.header();
-
         let tree = graph.spanning_tree(0);
         tree.draw_graph_svg(&mut svg_tree);
         svg_tree.footer();
+
+        // ---- Drawing the animated spanning tree -----
         let mut svg_tree_animated = Svg::new("animated_spanning_tree.svg".to_string(), h, w);
         svg_tree_animated.header();
         graph.draw_animated_spanning_tree(0, &mut svg_tree_animated);
         svg_tree_animated.footer();
 
+        // ----- Drawing the path in the spanning tree -----
         let mut svg_path_tree = Svg::new("path_spanning_tree.svg".to_string(), h, w);
         svg_path_tree.header();
-
         let tree = graph.spanning_tree(0);
         tree.draw_graph_svg(&mut svg_path_tree);
-    let _ = tree.animated_path_in_spanning_tree(0, &mut svg_path_tree);
+        let _ = tree.animated_path_in_spanning_tree(0, &mut svg_path_tree);
         svg_path_tree.footer();
 
+        // ----- Drawing the greedy path in the graph -----
+        let mut svg_path_greedy = Svg::new("path_greedy.svg".to_string(), h, w);
+        svg_path_greedy.header();
+        let _ = greedy_path(&mut vec, &mut svg_path_greedy);
+        svg_path_greedy.footer();
     }
 }
 
