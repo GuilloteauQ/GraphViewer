@@ -126,7 +126,7 @@ impl Graph {
     /// Draws the graph
     pub fn draw_graph_svg(&self,  svg_file: &mut Svg) {
         // The header
-        svg_file.header();
+        // svg_file.header();
         // The background
         svg_file.rectangle(0, 0,svg_file.h, svg_file.w, "white".to_string());
         for (index, pt) in self.points.iter().enumerate() {
@@ -136,12 +136,11 @@ impl Graph {
             }
         }
         // The footer
-        svg_file.footer();
+        // svg_file.footer();
     }
 
     /// Returns the spanning tree from the root point using Prim's Algorithm
     pub fn draw_animated_spanning_tree(&self, root: usize, svg_file: &mut Svg) {
-        svg_file.header();
         svg_file.rectangle(0, 0,svg_file.h, svg_file.w, "white".to_string());
         let mut set_of_points = Vec::new();
         set_of_points.push(root);
@@ -173,7 +172,40 @@ impl Graph {
             set_of_points.push(min_pt);
             self.points[from_point].draw_animated_line(&self.points[min_pt], svg_file, (10000 * set_of_points.len() / self.n) as u32);
         }
-        svg_file.footer();
+    }
+
+
+    /// Returns the distance for the smallest path using the spanning tree
+    /// ARG: a spanning tree
+    pub fn animated_path_in_spanning_tree(&self, root: usize, svg_file: &mut Svg) -> u32 {
+        // The stack of the points to see
+        let mut stack = Vec::new();
+        // The distance of the final path
+        let mut cumulated_distance = 0;
+        let mut previous_point = root;
+        // An arraty representing which point we have already seen
+        let mut already_seen: Vec<bool> = (0..self.n).map(|_| false).collect();
+        let mut seen_points = 1;
+
+        already_seen[root] = true;
+        stack.push(root);
+        // While there is some point to see
+        while !stack.is_empty() {
+            let top = stack.pop().unwrap();
+            for pt in 0..self.n {
+                // For all the neighbours of top that have not yet been seen
+                if !already_seen[pt] && self.matrix[top][pt] != u32::max_value() {
+                    // We add those point to be seen
+                    stack.push(pt);
+                    already_seen[pt] = true;
+                }
+            }
+            self.points[previous_point].draw_animated_line_red(&self.points[top], svg_file, (1 + (10000 * seen_points / self.n)) as u32);
+            cumulated_distance += self.points[previous_point].distance(&self.points[top]);
+            previous_point = top;
+            seen_points += 1;
+        }
+        cumulated_distance
     }
 
 
@@ -195,12 +227,28 @@ mod tests {
         let mut svg_file = Svg::new("out.svg".to_string(), h, w);
         let vec: Vec<Point> = random_vec(w, h, n);
         let graph: Graph = Graph::new_with_points(&vec);
+        svg_file.header();
         graph.draw_graph_svg(&mut svg_file);
+        svg_file.footer();
         let mut svg_tree = Svg::new("spanning_tree.svg".to_string(), h, w);
+        svg_tree.header();
+
         let tree = graph.spanning_tree(0);
         tree.draw_graph_svg(&mut svg_tree);
+        svg_tree.footer();
         let mut svg_tree_animated = Svg::new("animated_spanning_tree.svg".to_string(), h, w);
+        svg_tree_animated.header();
         graph.draw_animated_spanning_tree(0, &mut svg_tree_animated);
+        svg_tree_animated.footer();
+
+        let mut svg_path_tree = Svg::new("path_spanning_tree.svg".to_string(), h, w);
+        svg_path_tree.header();
+
+        let tree = graph.spanning_tree(0);
+        tree.draw_graph_svg(&mut svg_path_tree);
+    let _ = tree.animated_path_in_spanning_tree(0, &mut svg_path_tree);
+        svg_path_tree.footer();
+
     }
 }
 
